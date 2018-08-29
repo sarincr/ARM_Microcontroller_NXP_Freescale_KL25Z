@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.16a
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: adasd Microsoft, Microsoft, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.16a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 (build 20)
+Assembler:       Armasm.exe V5.06 (build 20)
+Linker/Locator:  ArmLink.exe V5.06 (build 20)
+Library Manager: ArmAr.exe V5.06 (build 20)
+Hex Converter:   FromElf.exe V5.06 (build 20)
+CPU DLL:         SARMCM3.DLL V5.16a
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      UL2CM3.DLL V1.155.12.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+E:\Works\Working\FRDMx\Sel\DAC_SINE\Master.uvprojx
+Project File Date:  11/09/2015
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 (build 20)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+Before Translate - User command #1: C:\Keil_v5\\ARM\ARMCC\bin\fromelf.exe --bin --output=Master.bin .\Objects\Master.axf
+compiling main.c...
+main.c(44): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 1 warning, 0 errors
+assembling startup_MKL25Z4.s...
+Before Translate - User command #1: C:\Keil_v5\\ARM\ARMCC\bin\fromelf.exe --bin --output=Master.bin .\Objects\Master.axf
+compiling system_MKL25Z4.c...
+linking...
+Program Size: Code=352 RO-data=688 RW-data=0 ZI-data=1024  
+FromELF: creating hex file...
+".\Objects\Master.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.4.0.pack
+                ARM::CMSIS:CORE:4.2.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KLxx_DFP.1.7.0.pack
+                Keil::Device:Startup:1.0.0
+                Freescale Kinetis KLxx Series Device Support and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\Works\Working\FRDMx\Sel\DAC_SINE\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.2.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_MKL25Z4.s
+      Source file:   Device\Source\system_MKL25Z4.c
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
