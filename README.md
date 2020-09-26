@@ -2,8 +2,5 @@ The Freedom KL25Z is an ultra-low-cost development platform for Kinetis® L Seri
 ![KL25Z](frdm-kl25z_headers2.png)
 
 Features 
-1. Features include easy access to MCU I/O, battery-ready, low-power operation, a standards-based form factor with expansion board options and a built-in debug interface for flash programming and run-control. 
-2.The FRDM-KL25Z is supported by a range of NXP® and third-party development software. 
-3.You can now use mbed.org at no charge, with full access to the online SDK, tools, reusable code—which means no downloads, installations or licenses—and an active community of developers. 
-4.Processor Expert® component for low voltage H-Bridge products enables rapid embedded application development. 
-5.The FRDM-KL25Z is supported by Zephyr OS for developing the Internet of Things with a free, open-source embedded operating system. Click here to learn more.
+Features include easy access to MCU I/O, battery-ready, low-power operation, a standards-based form factor with expansion board options and a built-in debug interface for flash programming and run-control. The FRDM-KL25Z is supported by a range of NXP® and third-party development software. You can now use mbed.org at no charge, with full access to the online SDK, tools, reusable code—which means no downloads, installations or licenses—and an active community of developers. Processor Expert® component for low voltage H-Bridge products enables rapid embedded application development. The FRDM-KL25Z is supported by Zephyr OS for developing the Internet of Things with a free, open-source embedded operating system. Click here to learn more.
+
